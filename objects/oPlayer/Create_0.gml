@@ -3,7 +3,7 @@ hsp = 0
 // vertical speed
 vsp = 0;
 // gravity
-grv = 0.1;
+grv = 0.2;
 // walk spead
 walksp = 2;
 

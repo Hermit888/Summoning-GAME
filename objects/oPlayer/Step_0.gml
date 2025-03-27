@@ -10,7 +10,7 @@ vsp +=  grv;
 
 // jumping
 if (key_jump && jump_curr > 0){
-	vsp = -5;
+	vsp = -6;
 	jump_curr --;
 	
 }
