@@ -10,3 +10,4 @@ walksp = 4;
 // jump number 
 jump_num = 2;
 jump_curr = 0;
+
