@@ -5,7 +5,7 @@ vsp = 0;
 // gravity
 grv = 0.2;
 // walk spead
-walksp = 2;
+walksp = 4;
 
 // jump number 
 jump_num = 2;

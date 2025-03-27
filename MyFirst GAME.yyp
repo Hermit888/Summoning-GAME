@@ -35,7 +35,9 @@
   "name":"MyFirst GAME",
   "resources":[
     {"id":{"name":"fnt_menu","path":"fonts/fnt_menu/fnt_menu.yy",},},
-    {"id":{"name":"obutton","path":"objects/obutton/obutton.yy",},},
+    {"id":{"name":"obutton_parent","path":"objects/obutton_parent/obutton_parent.yy",},},
+    {"id":{"name":"obutton_play","path":"objects/obutton_play/obutton_play.yy",},},
+    {"id":{"name":"obutton_quit","path":"objects/obutton_quit/obutton_quit.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
     {"id":{"name":"hallway","path":"rooms/hallway/hallway.yy",},},
