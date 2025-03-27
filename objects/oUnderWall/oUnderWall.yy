@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"ogame",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":70,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"oUnderWall",
+  "eventList":[],
   "managed":true,
-  "name":"ogame",
+  "name":"oUnderWall",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -29,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sUnderWall",
+    "path":"sprites/sUnderWall/sUnderWall.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

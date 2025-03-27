@@ -16,9 +16,20 @@ if (key_jump && jump_curr > 0){
 }
 
 // Horizontal collision
+// hallway
 if (place_meeting(x+hsp, y, oWall)){
 	// keep moving if don't hit the wall
 	while (!place_meeting(x+sign(hsp), y, oWall)){
+		x += sign(hsp);
+	}
+	
+	hsp = 0;
+}
+
+// underworld platform
+if (place_meeting(x+hsp, y, oPlatform)){
+	// keep moving if don't hit the wall
+	while (!place_meeting(x+sign(hsp), y, oPlatform)){
 		x += sign(hsp);
 	}
 	
@@ -28,8 +39,21 @@ if (place_meeting(x+hsp, y, oWall)){
 x += hsp;
 
 // vertical collision
+// hallway
 if (place_meeting(x, y+vsp, oWall)){
 	while (!place_meeting(x, y+sign(vsp), oWall)){
+		y +=  sign(vsp);
+	}
+	
+	if (vsp > 0){
+		jump_curr = jump_num;
+	}
+	vsp = 0;
+}
+
+// underwall platform
+if (place_meeting(x, y+vsp, oPlatform)){
+	while (!place_meeting(x, y+sign(vsp),  oPlatform)){
 		y +=  sign(vsp);
 	}
 	
