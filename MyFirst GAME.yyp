@@ -42,6 +42,7 @@
     {"id":{"name":"oMagicalCircle","path":"objects/oMagicalCircle/oMagicalCircle.yy",},},
     {"id":{"name":"oPlatform","path":"objects/oPlatform/oPlatform.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
+    {"id":{"name":"oPoliceStation","path":"objects/oPoliceStation/oPoliceStation.yy",},},
     {"id":{"name":"oUnderWall","path":"objects/oUnderWall/oUnderWall.yy",},},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
     {"id":{"name":"hallway","path":"rooms/hallway/hallway.yy",},},
