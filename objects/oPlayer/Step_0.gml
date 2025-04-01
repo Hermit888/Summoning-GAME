@@ -26,6 +26,16 @@ if (place_meeting(x+hsp, y, oWall)){
 	hsp = 0;
 }
 
+// underworld block
+if (place_meeting(x+hsp, y, oUnderWall)){
+	// keep moving if don't hit the wall
+	while (!place_meeting(x+sign(hsp), y, oUnderWall)){
+		x += sign(hsp);
+	}
+	
+	hsp = 0;
+}
+
 // underworld platform
 if (place_meeting(x+hsp, y, oPlatform)){
 	// keep moving if don't hit the wall
@@ -38,8 +48,9 @@ if (place_meeting(x+hsp, y, oPlatform)){
 // new x coordinate
 x += hsp;
 
+
 // vertical collision
-// hallway
+// hallway block
 if (place_meeting(x, y+vsp, oWall)){
 	while (!place_meeting(x, y+sign(vsp), oWall)){
 		y +=  sign(vsp);
@@ -51,7 +62,20 @@ if (place_meeting(x, y+vsp, oWall)){
 	vsp = 0;
 }
 
-// underwall platform
+// underworld block
+if (place_meeting(x, y+vsp, oUnderWall)){
+	while (!place_meeting(x, y+sign(vsp), oUnderWall)){
+		y +=  sign(vsp);
+	}
+	
+	if (vsp > 0){
+		jump_curr = jump_num;
+	}
+	vsp = 0;
+}
+
+
+// underworld platform
 if (place_meeting(x, y+vsp, oPlatform)){
 	while (!place_meeting(x, y+sign(vsp),  oPlatform)){
 		y +=  sign(vsp);
@@ -64,3 +88,6 @@ if (place_meeting(x, y+vsp, oPlatform)){
 }
 // new y coordinate
 y += vsp;
+
+
+// check whether player fall out the screen
