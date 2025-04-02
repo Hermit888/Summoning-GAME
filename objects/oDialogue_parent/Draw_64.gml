@@ -1,6 +1,11 @@
 /// @description 
 
+// background
+draw_set_color(background);
+draw_rectangle(0, 0 , 1366, 798, false);
+
 if(showing_dialog == true) {
+	// init to draw the dialogues
 	var base = display_get_gui_height()-200;
 	
 	var text_x = 30;
@@ -8,6 +13,7 @@ if(showing_dialog == true) {
 	var height = 32;
 	var border = 5;
 	var padding = 16;
+	
 	
 	height = string_height(current_dialog.message);
 	
