@@ -1,22 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"oMagicalCircle",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":70,"eventType":10,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"oMagicalCircle2",
+  "eventList":[],
   "managed":true,
-  "name":"oMagicalCircle",
+  "name":"oMagicalCircle2",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"oInteract",
-    "path":"objects/oInteract/oInteract.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -40,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sMagicalCircle",
-    "path":"sprites/sMagicalCircle/sMagicalCircle.yy",
+    "name":"sMagicalCircle1",
+    "path":"sprites/sMagicalCircle1/sMagicalCircle1.yy",
   },
   "spriteMaskId":null,
   "visible":true,
