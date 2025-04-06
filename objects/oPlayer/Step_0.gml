@@ -17,14 +17,15 @@ if (key_jump && jump_curr > 0){
 
 // Horizontal collision
 // hallway
-if (place_meeting(x+hsp, y, oWall)){
+if (place_meeting(x+hsp, y, oWall) or place_meeting(x + hsp, y, oRoomdoor)){
 	// keep moving if don't hit the wall
-	while (!place_meeting(x+sign(hsp), y, oWall)){
+	while (!place_meeting(x+sign(hsp), y, oWall) and !place_meeting(x+sign(hsp), y, oRoomdoor)){
 		x += sign(hsp);
 	}
 	
 	hsp = 0;
 }
+
 
 // underworld block
 if (place_meeting(x+hsp, y, oUnderWall)){
