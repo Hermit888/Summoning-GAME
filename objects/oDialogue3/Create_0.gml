@@ -2,6 +2,7 @@
 event_inherited();
 
 next_room = Underworld;
+
 background = c_black;
 lineBreak = "\n\n";
 
@@ -17,7 +18,7 @@ dialog.add(sNarrative, lineBreak + "You open your eyes and find you are standing
 
 dialog.add(sDemon1, character2Name + lineBreak + "No way...No way! It actually worked!");
 dialog.add(sDemon2, character3Name + lineBreak + "Hah. It's probably just some weird spirit in disguise. No way we actually summoned a real human.");
-dialog.add(sDemon3, character4Name + lineBreak + "But look! It has skin, and… hair! And-wait, its eyes are staring at us! That's definitely human!");
+dialog.add(sDemon3, character4Name + lineBreak + "But look! It has skin, and...hair! And - wait, its eyes are staring at us! That's definitely human!");
 dialog.add(sYou, character1Name + lineBreak + "Ugh...my head...What-where am I?");
 dialog.add(sDemon1, character2Name + lineBreak + "You, my fragile friend, are in the Underworld. And this? This is a once-in-a-lifetime moment!");
 dialog.add(sDemon2, character3Name + lineBreak + "Yeah, you should feel honored. We've never met a real human before. You're basically a walking legend.");
