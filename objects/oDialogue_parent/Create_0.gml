@@ -2,6 +2,7 @@
 
 dialog = new Dialogue();
 
+global.nextRoom = undefined;
 next_room = undefined;
 
 key_next = ord("F");

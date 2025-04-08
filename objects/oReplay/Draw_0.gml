@@ -2,7 +2,7 @@ draw_self();
 
 draw_set_colour(c_white);
 // set font
-draw_set_font(fnt_end);
+draw_set_font(fnt_menu);
 
 // set text alignment to middle
 draw_set_halign(fa_center);

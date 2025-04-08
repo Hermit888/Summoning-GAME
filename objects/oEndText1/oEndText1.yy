@@ -1,19 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"oDialoguetest",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"oEndText1",
+  "eventList":[],
   "managed":true,
-  "name":"oDialoguetest",
+  "name":"oEndText1",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
   "parentObjectId":{
-    "name":"oDialogue_parent",
-    "path":"objects/oDialogue_parent/oDialogue_parent.yy",
+    "name":"oEndText_parent",
+    "path":"objects/oEndText_parent/oEndText_parent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -28,7 +26,9 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"end_txt","filters":[],"listItems":[],"multiselect":false,"name":"end_txt","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Died by falling into the abyss","varType":2,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,

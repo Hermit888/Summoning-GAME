@@ -23,6 +23,7 @@ function Dialogue() constructor {
         return self;
     }
 	
+	
 	pop = function() {
 		var _t = array_first(_dialogs);
 		array_delete(_dialogs, 0, 1);
@@ -33,5 +34,4 @@ function Dialogue() constructor {
 	count = function() {
 		return array_length(_dialogs);
 	}
-
 }

@@ -95,4 +95,8 @@ if (place_meeting(x, y+vsp, oHole)){
 	room_goto(End1);
 }
 
-// check whether player fall out the screen
+// touch the police station
+if (place_meeting(x, y+vsp, oPoliceStation)){
+	room_goto(End2);
+}
+
