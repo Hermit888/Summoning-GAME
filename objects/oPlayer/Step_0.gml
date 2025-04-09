@@ -1,3 +1,6 @@
+
+
+
 // get player input
 key_left = keyboard_check(ord("A"));
 key_right = keyboard_check(ord("D"));
@@ -17,9 +20,9 @@ if (key_jump && jump_curr > 0){
 
 // Horizontal collision
 // hallway
-if (place_meeting(x+hsp, y, oWall) or place_meeting(x + hsp, y, oRoomdoor)){
+if (place_meeting(x+hsp, y, oWall) or place_meeting(x + hsp, y, oRoomdoor1)){
 	// keep moving if don't hit the wall
-	while (!place_meeting(x+sign(hsp), y, oWall) and !place_meeting(x+sign(hsp), y, oRoomdoor)){
+	while (!place_meeting(x+sign(hsp), y, oWall) and !place_meeting(x+sign(hsp), y, oRoomdoor1)){
 		x += sign(hsp);
 	}
 	

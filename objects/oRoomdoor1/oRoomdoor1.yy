@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"oRoomdoor",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"oRoomdoor1",
+  "eventList":[],
   "managed":true,
-  "name":"oRoomdoor",
+  "name":"oRoomdoor1",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",

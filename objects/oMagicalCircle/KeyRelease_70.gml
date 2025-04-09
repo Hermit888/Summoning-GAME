@@ -6,5 +6,7 @@ if (! global.interacted1){
 	}
 	global.interacted1 = true;
 	instance_destroy(popup_id);
+	
+
 }
 

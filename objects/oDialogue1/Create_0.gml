@@ -3,6 +3,7 @@ event_inherited();
 
 background = c_black;
 lineBreak = "\n\n";
+next_room = Hallway;
 
 character1Name = "You"
 character2Name = "Roommate"

@@ -7,6 +7,7 @@ if (showing_dialog == false) {
         } else if (global.nextRoom != undefined){
 			room_goto(global.nextRoom);
 			global.nextRoom = undefined;
+			show_debug_message("it's 1");
             instance_destroy();
             return;
 		} 
