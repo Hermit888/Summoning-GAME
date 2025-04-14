@@ -7,7 +7,7 @@ lineBreak = "\n\n";
 global.character1Name = "You"
 global.character2Name = "Underworld Officer"
 
-dialog.add(sOfficer, global.character2Name + lineBreak + "Halt! You there! Do you have a permit for being alive?");
+dialog.add(sOfficer, global.character2Name + lineBreak + "Halt! You there! Do you have a permit for being dead?");
 dialog.add(sYou, global.character1Name+ lineBreak + "...What now?");
 dialog.add_choice(sOfficer, global.character2Name +"\n\nA permit! You know, a Proof of Death Certificate. Standard paperwork for all Underworld residents.",
 					[

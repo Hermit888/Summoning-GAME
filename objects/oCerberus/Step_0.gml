@@ -16,7 +16,7 @@ if (global.is_active) {
         var player = instance_place(x, y, oPlayer);
         
 
-        if (player.y < y - sprite_height && player.vsp > 0) {
+        if (player.y < y - sprite_height+148 && player.vsp > 0) {
             boss_hp -= 1;
             player.vsp = player.jump_force/2;
             

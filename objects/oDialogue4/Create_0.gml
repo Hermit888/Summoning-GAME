@@ -16,7 +16,7 @@ dialog.add_choice(sDemon2, global.character2Name +"\n\nNot literally! Ugh, we do
 						{
 							text: "Tell a joke",
 							callback: function(dialogue){
-								dialogue.add(sNarrative, "\n\nAfter hearing the joke, laughing.");
+								dialogue.add(sNarrative, "\n\nAfter hearing the joke, they laugh.");
 								dialogue.add(sDemon1, global.character2Name + "\n\nPfft - what?! That makes no sense! I love it! Humans are weird!")
 								
 								dialogue.add(sNarrative, "\n\nA key is thrown into your hand");
@@ -36,7 +36,7 @@ dialog.add_choice(sDemon2, global.character2Name +"\n\nNot literally! Ugh, we do
 						{
 							text:"Sing a song",
 							callback: function(dialogue){
-								dialogue.add(sNarrative, "\n\nAfter hearing the song, eyes sparkling");
+								dialogue.add(sNarrative, "\n\nAfter hearing the song, their eyes sparkle");
 								dialogue.add(sDemon1, global.character1Name+"\n\nWhoa... that was kind of... beautiful. Can you do that all the time?");
 							
 								dialogue.add(sNarrative, "\n\nA key is thrown into your hand");

@@ -17,7 +17,7 @@ dialog.add_choice(sDemon3, global.character3Name +"\n\nI don't know. Just... do 
 						{
 							text: "Pinch yourself",
 							callback: function(dialogue){
-								dialogue.add(sNarrative, "\n\nAfter watching you pinch yourself, shocked.");
+								dialogue.add(sNarrative, "\n\nAfter watching you pinch yourself, they are shocked.");
 								dialogue.add(sDemon2, global.character2Name + "\n\nDid you just hurt yourself on purpose?! That's so inefficient!");
 								
 								dialogue.add(sNarrative, "\n\nA key is thrown into your hand");

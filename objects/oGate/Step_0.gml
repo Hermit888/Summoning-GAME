@@ -4,6 +4,8 @@ if (global.gate){
 		if (keyboard_check(ord("F"))){
 			door_popup_id.visible = false;
 			room_goto(Hallway);
+			global.key1 = false;
+			global.key2 = true;
 			instance_destroy();
 		}
 	} else {

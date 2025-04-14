@@ -18,3 +18,4 @@ invincible_time = 0;
 invincible_duration = 60;
 blink_speed = 5;
 damage_flash = false;
+
