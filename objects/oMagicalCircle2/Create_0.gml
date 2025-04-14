@@ -1,6 +1,7 @@
-// Inherit the parent event
-event_inherited();
+radius = 80;
 
-if (! variable_global_exists("interacted2")){
-	global.interacted2 = false;
-}
+magical_popup_id = instance_create_layer(x, y - 60, layer, opopup);
+
+magical_popup_id.visible = false;
+
+has_been_interacted = false;

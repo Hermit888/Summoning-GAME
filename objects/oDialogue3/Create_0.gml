@@ -25,9 +25,10 @@ dialog.add(sDemon2, character3Name + lineBreak + "Yeah, you should feel honored.
 dialog.add(sYou, character1Name + lineBreak + "Lucky me...Now, mind telling me why I'm here?");
 dialog.add(sDemon3, character4Name + lineBreak + "We might have performed a summoning ritual. Just, you know...for fun. It wasn't supposed to actually work!");
 dialog.add(sYou, character1Name + lineBreak + "Oh, great. I'm the result of a paranormal science experiment. Fantastic.");
-dialog.add(sDemon1, character2Name + lineBreak + "Look, don't take it personally. Actually, you should be excited! If you want to leave, all you need is a key. And we might have one... but first, you have to help us.");
+dialog.add(sDemon1, character2Name + lineBreak + "Look, don't take it personally. Actually, you should be excited! If you want to leave, all you need are keys to open the doors and find the return gate. We happen to have the keys to this area.");
+dialog.add(sDemon3, character3Name + lineBreak + "Let's play hide and seek! Find us and answer the questions correctly to get rewards.");
 
-dialog.add(sDemon2, character3Name + lineBreak + "Right. But the The first lesson is paying attention the demon cops. They don't welcome any outsiders.");
+dialog.add(sDemon2, character3Name + lineBreak + "But the The first lesson is paying attention the demon cops. They don't welcome any outsiders.");
 dialog.add(sYou, character1Name + lineBreak + "What does that mean?");
-dialog.add(sDemon3, character4Name + lineBreak + "Never mind. He was just giving you a friendly reminder. If you get caught, there's no going back.");
+dialog.add(sDemon3, character4Name + lineBreak + "Never mind. He was just giving you a friendly reminder. If you get caught by cops, there's no way to go back.");
 dialog.add(sYou, character1Name + lineBreak + "......");

@@ -7,7 +7,6 @@ if (showing_dialog == false) {
         } else if (global.nextRoom != undefined){
 			room_goto(global.nextRoom);
 			global.nextRoom = undefined;
-			show_debug_message("it's 1");
             instance_destroy();
             return;
 		} 
@@ -22,7 +21,7 @@ if (showing_dialog == false) {
     selected_choice = -1;
     choice_hover = -1;
 } else {
-    if (!current_dialog.is_choice && (mouse_check_button_released(mouse_next) || keyboard_check_released(key_next))) {
+    if (!current_dialog.is_choice && (mouse_check_button_released(mouse_next))) {
         showing_dialog = false;
     }
 }

@@ -1,0 +1,12 @@
+if (global.gate){
+	if (collision_circle(x, y, radius, oPlayer, false, true)){
+		door_popup_id.visible = true;
+		if (keyboard_check(ord("F"))){
+			door_popup_id.visible = false;
+			room_goto(Hallway);
+			instance_destroy();
+		}
+	} else {
+		door_popup_id.visible = false;
+	}
+}

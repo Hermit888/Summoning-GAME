@@ -1,6 +1,3 @@
-
-
-
 // get player input
 key_left = keyboard_check(ord("A"));
 key_right = keyboard_check(ord("D"));
@@ -20,9 +17,9 @@ if (key_jump && jump_curr > 0){
 
 // Horizontal collision
 // hallway
-if (place_meeting(x+hsp, y, oWall) or place_meeting(x + hsp, y, oRoomdoor1)){
+if (place_meeting(x+hsp, y, oWall)){
 	// keep moving if don't hit the wall
-	while (!place_meeting(x+sign(hsp), y, oWall) and !place_meeting(x+sign(hsp), y, oRoomdoor1)){
+	while (!place_meeting(x+sign(hsp), y, oWall)){
 		x += sign(hsp);
 	}
 	
@@ -49,6 +46,18 @@ if (place_meeting(x+hsp, y, oPlatform)){
 	
 	hsp = 0;
 }
+
+
+//room door
+if (place_meeting(x+hsp, y, oRoomdoor)){
+	// keep moving if don't hit the door
+	while (!place_meeting(x+sign(hsp), y, oRoomdoor)){
+		x += sign(hsp);
+	}
+	
+	hsp = 0;
+}
+
 // new x coordinate
 x += hsp;
 
@@ -103,3 +112,28 @@ if (place_meeting(x, y+vsp, oPoliceStation)){
 	room_goto(End2);
 }
 
+
+if (global.invincible) {
+    invincible_time--;
+    
+
+    if (invincible_time <= 0) {
+        global.invincible = false;
+        image_alpha = 1; 
+        damage_flash = false;
+    } 
+
+    else {
+        if (invincible_time mod blink_speed == 0) {
+            image_alpha = (image_alpha == 0.5) ? 1 : 0.5;
+        }
+        
+
+        if (damage_flash && invincible_time > invincible_duration - 10) {
+            image_blend = c_red;
+        } else {
+            image_blend = c_white;
+            damage_flash = false;
+        }
+    }
+}

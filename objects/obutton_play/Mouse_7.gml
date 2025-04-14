@@ -1,7 +1,7 @@
 // Inherit the parent event
 event_inherited();
 
-
+//room_goto(Hallway);
 
 instance_create_layer(0, 0, layer, oDialogue1);
 

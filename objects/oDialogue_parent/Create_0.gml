@@ -5,7 +5,6 @@ dialog = new Dialogue();
 global.nextRoom = undefined;
 next_room = undefined;
 
-key_next = ord("F");
 mouse_next = mb_left;
 
 showing_dialog = false;

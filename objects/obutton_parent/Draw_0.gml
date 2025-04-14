@@ -1,5 +1,5 @@
 draw_self();
-
+draw_set_color(c_white);
 // set font
 draw_set_font(fnt_menu);
 
