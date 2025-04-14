@@ -1,3 +1,29 @@
+if (global.count == 1 && global.replay){
+	show_debug_message("bug");
+	global.replay = false;
+	instance_destroy();
+	instance_create_layer(512, 224, layer, oPlayer);
+} else if (global.count == 2 && global.replay) {
+	global.replay = false;
+	instance_destroy();
+	instance_destroy(oDemon1);
+	instance_destroy(oDemon2);
+	instance_destroy(oRoomdoor3);
+	instance_create_layer(1952, 672, layer, oPlayer);
+}  else if (global.count == 3 && global.replay) {
+	global.replay = false;
+	instance_destroy();
+	instance_destroy(oDemon1);
+	instance_destroy(oDemon2);
+	instance_destroy(oOfficer);
+	instance_destroy(oSpirit1);
+	instance_destroy(oSpirit2);
+	instance_destroy(oRoomdoor3);
+	instance_destroy(oRoomdoor4);
+	instance_create_layer(3904, 672, layer, oPlayer);
+}
+
+
 // get player input
 key_left = keyboard_check(ord("A"));
 key_right = keyboard_check(ord("D"));

@@ -3,6 +3,7 @@ if (global.key5 && global.key6){
 		door_popup_id.visible = true;
 		if (keyboard_check(ord("F"))){
 			door_popup_id.visible = false;
+			global.count ++;
 			instance_destroy();
 		}
 	} else {

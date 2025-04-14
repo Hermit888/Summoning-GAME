@@ -26,4 +26,4 @@ dialog.add(sCerberus, character2Name+lineBreak+"Nobody does.");
 dialog.add(sCerberus, character2Name+lineBreak+"Now, go make yourself comfortable. You've got all eternity to settle in!");
 
 dialog.add(sNarrative, "\n\n.............................................");
-dialog.add(sNarrative, character1Name+lineBreak+"You're now a full-fledged ghost, doomed to roam the Underworld forever... but in a surprisingly cozy and not-so-bad existence.");
+dialog.add(sNarrative, lineBreak+"You're now a full-fledged ghost, doomed to roam the Underworld forever... but in a surprisingly cozy and not-so-bad existence.");

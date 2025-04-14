@@ -15,3 +15,4 @@ global.key5 = false;
 global.key6 = false;
 
 global.count = 0;
+global.replay = false;

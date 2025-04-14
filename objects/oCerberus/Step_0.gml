@@ -28,6 +28,7 @@ if (global.is_active) {
             if (boss_hp <= 0) {
 				instance_create_layer(x, y, layer, oDialogue10);
 				instance_create_layer(5088, 640, layer, oGate);
+				instance_destroy(oInstru_attack);
                 instance_destroy();
             }
         } 
