@@ -31,7 +31,7 @@ dialog.add_choice(sOfficer, global.character2Name +"\n\nA permit! You know, a Pr
 									{
 										text: "Greg Humanstein",
 										callback: function(dialogue){
-											dialogue.add(sOfficer, "\n\nLooks that is not your name.");
+											dialogue.add(sOfficer, global.character2Name+"\n\nLooks that is not your name.");
 											global.nextRoom = End2;
 										}
 									},
@@ -43,19 +43,19 @@ dialog.add_choice(sOfficer, global.character2Name +"\n\nA permit! You know, a Pr
 												{
 													text: "Shadow Tax Collector",
 													callback: function(dialogue){
-													dialogue.add_choice(sOfficer, "\n\nFinal question... Date of Death?",
+													dialogue.add_choice(sOfficer, global.character2Name+"\n\nFinal question... Date of Death?",
 													[
 														{
 															text: "9999 B.C.",
 															callback: function(dialogue){
-															dialogue.add(sOfficer, "\n\nWhy do you dress differently from the primitive people?");
+															dialogue.add(sOfficer, global.character2Name+"\n\nWhy do you dress differently from the primitive people?");
 															global.nextRoom = End2;
 															}
 														},
 														{
 															text: "Yesterday at Lunch",
 															callback: function(dialogue){
-															dialogue.add(sOfficer, "\n\nDid you choke to death?");
+															dialogue.add(sOfficer, global.character2Name+"\n\nDid you choke to death?");
 															global.nextRoom = End2;
 															}
 														},
@@ -71,14 +71,14 @@ dialog.add_choice(sOfficer, global.character2Name +"\n\nA permit! You know, a Pr
 												{
 													text: "Professional Napper",
 													callback: function(dialogue){
-													dialogue.add(sOfficer, "\n\n? What is that about?");
+													dialogue.add(sOfficer, global.character2Name+"\n\n? What is that about?");
 													global.nextRoom = End2;
 													}
 												},
 												{
 													text: "Licensed Spirit Therapist",
 													callback: function(dialogue){
-													dialogue.add(sOfficer, "\n\nShow me your license.");
+													dialogue.add(sOfficer, global.character2Name+"\n\nShow me your license.");
 													dialogue.add(sNarrative, "\n\nYou don't have a license.");
 													global.nextRoom = End2;
 													}
@@ -90,7 +90,7 @@ dialog.add_choice(sOfficer, global.character2Name +"\n\nA permit! You know, a Pr
 									{
 										text: "Kevin",
 										callback: function(dialogue){
-											dialogue.add(sOfficer, "\n\nLooks that is not your name.");
+											dialogue.add(sOfficer, global.character2Name+"\n\nLooks that is not your name.");
 											global.nextRoom = End2;
 										}
 									}

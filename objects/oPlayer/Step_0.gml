@@ -35,7 +35,7 @@ hsp = move*walksp;
 vsp +=  grv;
 
 // jumping
-if (key_jump && jump_curr > 0){
+if (key_jump && jump_curr > 0 && global.move = true;){
 	vsp = -6;
 	jump_curr --;
 	

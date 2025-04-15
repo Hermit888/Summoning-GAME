@@ -4,6 +4,7 @@ dialog = new Dialogue();
 
 global.nextRoom = undefined;
 next_room = undefined;
+global.jump = false;
 
 mouse_next = mb_left;
 
