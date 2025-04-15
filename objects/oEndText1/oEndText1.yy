@@ -27,7 +27,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"end_txt","filters":[],"listItems":[],"multiselect":false,"name":"end_txt","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Died by falling into the abyss","varType":2,},
+    {"$GMObjectProperty":"v1","%Name":"end_txt","filters":[],"listItems":[],"multiselect":false,"name":"end_txt","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"End: Died by falling into the abyss","varType":2,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

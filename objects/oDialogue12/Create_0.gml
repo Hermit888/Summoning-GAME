@@ -3,8 +3,8 @@ event_inherited();
 
 background = c_black;
 lineBreak = "\n\n";
+next_room = End5;
 
-next_room = Main_menu;
 character1Name = "You";
 character2Name = "Ash";
 

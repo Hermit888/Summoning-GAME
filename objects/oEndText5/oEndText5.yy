@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"oEndText4",
+  "%Name":"oEndText5",
   "eventList":[],
   "managed":true,
-  "name":"oEndText4",
+  "name":"oEndText5",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -27,7 +27,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"end_txt","filters":[],"listItems":[],"multiselect":false,"name":"end_txt","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"End: Become a ghost and stay in the underworld","varType":2,},
+    {"$GMObjectProperty":"v1","%Name":"end_txt","filters":[],"listItems":[],"multiselect":false,"name":"end_txt","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"End: Welcome home","varType":2,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

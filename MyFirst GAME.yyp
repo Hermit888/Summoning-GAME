@@ -68,6 +68,7 @@
     {"id":{"name":"oEndText2","path":"objects/oEndText2/oEndText2.yy",},},
     {"id":{"name":"oEndText3","path":"objects/oEndText3/oEndText3.yy",},},
     {"id":{"name":"oEndText4","path":"objects/oEndText4/oEndText4.yy",},},
+    {"id":{"name":"oEndText5","path":"objects/oEndText5/oEndText5.yy",},},
     {"id":{"name":"oGate","path":"objects/oGate/oGate.yy",},},
     {"id":{"name":"oHealth","path":"objects/oHealth/oHealth.yy",},},
     {"id":{"name":"oHole","path":"objects/oHole/oHole.yy",},},
@@ -100,6 +101,7 @@
     {"id":{"name":"End2","path":"rooms/End2/End2.yy",},},
     {"id":{"name":"End3","path":"rooms/End3/End3.yy",},},
     {"id":{"name":"End4","path":"rooms/End4/End4.yy",},},
+    {"id":{"name":"End5","path":"rooms/End5/End5.yy",},},
     {"id":{"name":"Hallway","path":"rooms/Hallway/Hallway.yy",},},
     {"id":{"name":"Main_menu","path":"rooms/Main_menu/Main_menu.yy",},},
     {"id":{"name":"Underworld","path":"rooms/Underworld/Underworld.yy",},},
@@ -155,6 +157,7 @@
     {"roomId":{"name":"End2","path":"rooms/End2/End2.yy",},},
     {"roomId":{"name":"End3","path":"rooms/End3/End3.yy",},},
     {"roomId":{"name":"End4","path":"rooms/End4/End4.yy",},},
+    {"roomId":{"name":"End5","path":"rooms/End5/End5.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

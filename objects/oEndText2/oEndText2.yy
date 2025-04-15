@@ -27,7 +27,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"end_txt","filters":[],"listItems":[],"multiselect":false,"name":"end_txt","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Get arrested by demon cops","varType":2,},
+    {"$GMObjectProperty":"v1","%Name":"end_txt","filters":[],"listItems":[],"multiselect":false,"name":"end_txt","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"End: Get arrested by demon cops","varType":2,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
