@@ -1,4 +1,5 @@
 // Inherit the parent event
 event_inherited();
-
-game_end();
+if (global.quit){
+	game_end();
+}

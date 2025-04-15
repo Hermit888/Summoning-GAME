@@ -16,11 +16,13 @@ if (global.is_active) {
         var player = instance_place(x, y, oPlayer);
         
 
-        if (player.y < y - sprite_height+148 && player.vsp > 0) {
+        if (player.y < y - sprite_height+158 && player.vsp > 0) {
+			
             boss_hp -= 1;
-            player.vsp = player.jump_force/2;
+			if (boss_hp > 0){
+				player.vsp = player.jump_force/2;
+			}
             
-
             if (boss_hp <= 5) {
                 move_speed = 5; 
             }

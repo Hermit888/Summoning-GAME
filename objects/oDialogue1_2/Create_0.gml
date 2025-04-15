@@ -8,6 +8,7 @@ lineBreak = "\n\n";
 character1Name = "You"
 character2Name = "Roommate"
 global.key1 = true;
+global.quit = true;
 
 dialog.add(sYou,character1Name + lineBreak + "Ugh, wasn't today's class way too difficult? Prof. K's lectures always feel so complicated.");
 dialog.add(sRoomate, character2Name + lineBreak + "Yeah, but there's a lot to learn. I actually found today's discussion on how space affects human psychology really interesting.");

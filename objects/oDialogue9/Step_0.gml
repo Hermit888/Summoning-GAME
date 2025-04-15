@@ -1,5 +1,6 @@
 if (showing_dialog == false) {
     if (dialog.count() <= 0) {
+		global.move = true;
         if (next_room != undefined) {
             room_goto(next_room);
             instance_destroy();
@@ -24,7 +25,8 @@ if (showing_dialog == false) {
     selected_choice = -1;
     choice_hover = -1;
 } else {
-    if (!current_dialog.is_choice && (mouse_check_button_released(mouse_next))) {
+    if ((!current_dialog.is_choice && mouse_check_button_released(mouse_next)) 
+	|| (!current_dialog.is_choice && keyboard_check_released(vk_space))) {
         showing_dialog = false;
     }
 }
