@@ -35,7 +35,7 @@ hsp = move*walksp;
 vsp +=  grv;
 
 // jumping
-if (key_jump && jump_curr > 0 && global.move = true){
+if (key_jump && jump_curr > 0 && global.move){
 	vsp = -6;
 	jump_curr --;
 	
@@ -45,7 +45,7 @@ if (key_jump && jump_curr > 0 && global.move = true){
 // hallway
 if (place_meeting(x+hsp, y, oWall)){
 	// keep moving if don't hit the wall
-	while (!place_meeting(x+sign(hsp), y, oWall)){
+	while (!place_meeting(x+sign(hsp), y, oWall)&& global.move){
 		x += sign(hsp);
 	}
 	
@@ -56,7 +56,7 @@ if (place_meeting(x+hsp, y, oWall)){
 // underworld block
 if (place_meeting(x+hsp, y, oUnderWall)){
 	// keep moving if don't hit the wall
-	while (!place_meeting(x+sign(hsp), y, oUnderWall)){
+	while (!place_meeting(x+sign(hsp), y, oUnderWall)&& global.move){
 		x += sign(hsp);
 	}
 	
@@ -66,7 +66,7 @@ if (place_meeting(x+hsp, y, oUnderWall)){
 // underworld platform
 if (place_meeting(x+hsp, y, oPlatform)){
 	// keep moving if don't hit the wall
-	while (!place_meeting(x+sign(hsp), y, oPlatform)){
+	while (!place_meeting(x+sign(hsp), y, oPlatform)&& global.move){
 		x += sign(hsp);
 	}
 	
@@ -91,7 +91,7 @@ x += hsp;
 // vertical collision
 // hallway block
 if (place_meeting(x, y+vsp, oWall)){
-	while (!place_meeting(x, y+sign(vsp), oWall)){
+	while (!place_meeting(x, y+sign(vsp), oWall)&& global.move){
 		y +=  sign(vsp);
 	}
 	
@@ -103,7 +103,7 @@ if (place_meeting(x, y+vsp, oWall)){
 
 // underworld block
 if (place_meeting(x, y+vsp, oUnderWall)){
-	while (!place_meeting(x, y+sign(vsp), oUnderWall)){
+	while (!place_meeting(x, y+sign(vsp), oUnderWall)&& global.move){
 		y +=  sign(vsp);
 	}
 	
@@ -116,7 +116,7 @@ if (place_meeting(x, y+vsp, oUnderWall)){
 
 // underworld platform
 if (place_meeting(x, y+vsp, oPlatform)){
-	while (!place_meeting(x, y+sign(vsp),  oPlatform)){
+	while (!place_meeting(x, y+sign(vsp),  oPlatform)&& global.move){
 		y +=  sign(vsp);
 	}
 	
