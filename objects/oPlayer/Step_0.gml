@@ -22,7 +22,6 @@ if (global.count == 1 && global.replay){
 	instance_create_layer(3904, 672, layer, oPlayer);
 }
 
-
 if (global.move){
 	// get player input
 	key_left = keyboard_check(ord("A"));
@@ -32,12 +31,24 @@ if (global.move){
 	var move = key_right - key_left;
 	hsp = move*walksp;
 	vsp +=  grv;
+	
+	if (move != 0){
+		if (key_left){
+			direction = 1;
+			sprite_index = sPlayer_lt;
+		} else {
+			direction = 0;
+			sprite_index = sPlayer_rt;
+		}
+	}
+
 } else {
 	// calculate movement
 	var move = 0;
 	hsp = move*walksp;
 	vsp +=  0;
 }
+
 
 
 // jumping

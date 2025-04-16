@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sCerberusg",
-    "path":"sprites/sCerberusg/sCerberusg.yy",
+    "name":"sCerberusg_lt",
+    "path":"sprites/sCerberusg_lt/sCerberusg_lt.yy",
   },
   "spriteMaskId":null,
   "visible":true,

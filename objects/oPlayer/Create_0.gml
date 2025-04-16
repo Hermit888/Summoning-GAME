@@ -19,3 +19,5 @@ invincible_duration = 60;
 blink_speed = 5;
 damage_flash = false;
 
+
+image_speed = false;

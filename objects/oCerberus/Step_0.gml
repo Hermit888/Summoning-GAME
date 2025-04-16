@@ -5,11 +5,20 @@ if (global.is_active) {
     if (place_meeting(next_x, y, oUnderWall) || 
         place_meeting(x, y, oRoomdoor4) || 
         next_x <= 0 || 
-        next_x >= room_width - sprite_width) 
-    {
+        next_x >= room_width - sprite_width) {
         move_dir *= -1;
     }
+	
+	if (move_dir == -1){
+			direction = 1;
+			sprite_index = sCerberusg_lt;
+		} else {
+			direction = 0;
+			sprite_index = sCerberusg_rt;
+	}
+	
     x += move_dir * move_speed;
+
     
 
     if (place_meeting(x, y, oPlayer) && !global.invincible) {
