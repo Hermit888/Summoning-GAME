@@ -27,7 +27,7 @@ dialog.add_choice(sDemon3, global.character3Name +"\n\nI don't know. Just... do 
 						{
 							text: "Pretend to faint",
 							callback: function(dialogue){
-								dialogue.add(sNarrative, "\n\nAfte syou pretend to faint, panicked");
+								dialogue.add(sNarrative, "\n\nAfte you pretend to faint, panicked");
 								dialogue.add(sDemon3, global.character3Name + "\n\nWh - did it just die?! Oh, wait. No. It's breathing. Whew.");
 							
 								dialogue.add(sNarrative, "\n\nA key is thrown into your hand");
