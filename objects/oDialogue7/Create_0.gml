@@ -12,7 +12,7 @@ dialog.add(sYou, global.character1Name+lineBreak+"... This place feels different
 dialog.add(sSpirit1, global.character2Name+lineBreak+"You... You have a name, don't you? But me... I have none.");
 dialog.add(sYou, global.character1Name+lineBreak+"You don't remember your name?");
 dialog.add(sSpirit1, global.character2Name+lineBreak+"It's gone. Time stole it from me. The longer I remain forgotten, the more I fade. But if you... if you could remember...");
-dialog.add(sYou, global.character1Name+lineBreak+" I don't even know you. How am I supposed to -");
+dialog.add(sYou, global.character1Name+lineBreak+"I don't even know you. How am I supposed to -");
 dialog.add_choice(sSpirit1, global.character2Name + "\n\nJust think! Give me something to anchor myself!",
 					[{
 						text: "Elowen",

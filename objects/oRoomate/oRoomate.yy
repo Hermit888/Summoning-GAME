@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sRoomateg",
-    "path":"sprites/sRoomateg/sRoomateg.yy",
+    "name":"sRoommateg",
+    "path":"sprites/sRoommateg/sRoommateg.yy",
   },
   "spriteMaskId":null,
   "visible":true,

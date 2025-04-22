@@ -7,14 +7,14 @@ global.character1Name = "You"
 global.character2Name = "Roommate"
 // global.nextroom = Hallway;
 
-dialog.add(sRoomate, global.character2Name + "\n\nhello traveler!");
+dialog.add(sRoommate, global.character2Name + "\n\nhello traveler!");
 dialog.add(sYou,  global.character1Name + "\n\nHi");
-dialog.add_choice(sRoomate, global.character2Name +"\n\nwhich way you want to go?",
+dialog.add_choice(sRoommate, global.character2Name +"\n\nwhich way you want to go?",
 					[
 						{
 							text: "east",
 							callback: function(dialogue){
-								dialogue.add(sRoomate, global.character2Name + "\n\nGood luck for the east path")
+								dialogue.add(sRoommate, global.character2Name + "\n\nGood luck for the east path")
 							}
 						},
 						{
@@ -22,14 +22,14 @@ dialog.add_choice(sRoomate, global.character2Name +"\n\nwhich way you want to go
 							callback: function(dialogue){
 								global.nextRoom = Hallway;
 								
-								dialogue.add(sRoomate, global.character2Name + "\n\nBye");
+								dialogue.add(sRoommate, global.character2Name + "\n\nBye");
 							}
 						},
 						{
 							text:"south",
 							callback: function(dialogue){
 								global.nextRoom = End2;
-								dialogue.add(sRoomate, global.character2Name+"\n\nyou dead");
+								dialogue.add(sRoommate, global.character2Name+"\n\nyou dead");
 							}
 						}
 					]);

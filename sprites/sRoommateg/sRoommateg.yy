@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"sRoomateg",
+  "%Name":"sRoommateg",
   "bboxMode":0,
   "bbox_bottom":63,
   "bbox_left":15,
@@ -21,7 +21,7 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"51b9f7e8-4836-49fa-9c3d-99d98edbe4ed","blendMode":0,"displayName":"default","isLocked":false,"name":"51b9f7e8-4836-49fa-9c3d-99d98edbe4ed","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"sRoomateg",
+  "name":"sRoommateg",
   "nineSlice":null,
   "origin":4,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"sRoomateg",
+    "%Name":"sRoommateg",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"sRoomateg",
+    "name":"sRoommateg",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -71,7 +71,7 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f0238e69-d0d4-4181-92de-5ad90f149df1","path":"sprites/sRoomateg/sRoomateg.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f0238e69-d0d4-4181-92de-5ad90f149df1","path":"sprites/sRoommateg/sRoommateg.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"7f9fa29c-ac52-47cf-8322-beeaaba2653f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],

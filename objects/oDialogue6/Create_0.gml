@@ -16,14 +16,13 @@ dialog.add_choice(sOfficer, global.character2Name +"\n\nA permit! You know, a Pr
 							callback: function(dialogue){
 								dialogue.add(sYou, "\n\nUh, you see... I am technically dead. Just, uh... on vacation from being dead?");
 								dialogue.add(sOfficer, global.character2Name + "\n\nA death vacation? ...That's actually a thing?");
-								dialogue.add(sOfficer, global.character2Name + "\n\nA death vacation? ...That's actually a thing?");
 								dialogue.add(sOfficer, global.character2Name + "\n\nHmmm. Fine. But if I see you breaking any more rules, you're coming with us!");
 							}
 						},
 						{
 							text: "Show fake paperwork",
 							callback: function(dialogue){
-								dialogue.add(sNarrative, "\n\nThe police is squinting at your fake ID.");
+								dialogue.add(sNarrative, "\n\nThe police are squinting at your fake ID.");
 								dialogue.add(sOfficer, global.character2Name + "\n\nHmmm... This ID looks... suspiciously normal. Alright, let's see if you really are who you claim to be.");
 								dialogue.add(sOfficer, global.character2Name + "\n\nI'm going to ask you 3 simple questions about yourself. Answer wrong, and it's straight to the Ghost Jail for you.");
 								dialogue.add_choice(sOfficer, global.character2Name + "\n\nAccording to your ID... What's your full Underworld name?",
@@ -102,7 +101,7 @@ dialog.add_choice(sOfficer, global.character2Name +"\n\nA permit! You know, a Pr
 						{
 							text: "Run",
 							callback: function(dialogue){
-								dialogue.add(sNarrative, "\n\nYou tried to run away, but underworld officer spread his wings and caught up with you");
+								dialogue.add(sNarrative, "\n\nYou tried to run away, but underworld officer spread his wings and caught up with you.");
 								global.nextRoom = End2;
 							}
 						},

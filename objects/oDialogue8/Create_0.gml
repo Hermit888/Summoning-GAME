@@ -15,24 +15,24 @@ dialog.add_choice(sSpirit2, global.character2Name + "\n\nTell us. Describe it. M
 					[{
 						text: "Describe something sweet",
 							callback: function(dialogue){
-								dialogue.add(sSpirit1, global.character2Name + "\n\nAh... yes. Like honey on a warm day...");
-								dialogue.add(sSpirit1, global.character2Name + "\n\nThank you. That was... delicious.");
+								dialogue.add(sSpirit2, global.character2Name + "\n\nAh... yes. Like honey on a warm day...");
+								dialogue.add(sSpirit2, global.character2Name + "\n\nThank you. That was... delicious.");
 								dialogue.add(sNarrative, "\n\nOne of keys appears in your hands.");
 							}
 					},
 					{
 						text: "Describe something spicy",
 							callback: function(dialogue){
-								dialogue.add(sSpirit1, global.character2Name + "\n\nFire on the tongue! A thrill!");
-								dialogue.add(sSpirit1, global.character2Name + "\n\nThank you. That was... delicious.");
+								dialogue.add(sSpirit2, global.character2Name + "\n\nFire on the tongue! A thrill!");
+								dialogue.add(sSpirit2, global.character2Name + "\n\nThank you. That was... delicious.");
 								dialogue.add(sNarrative, "\n\nOne of keys appears in your hands.");
 							}	
 					},
 					{
 						text: "Describe something refreshing",
 							callback: function(dialogue){
-								dialogue.add(sSpirit1, global.character2Name + "\n\nA cool breeze in the heat of summer... I can almost taste it again...");
-								dialogue.add(sSpirit1, global.character2Name + "\n\nThank you. That was... delicious.");
+								dialogue.add(sSpirit2, global.character2Name + "\n\nA cool breeze in the heat of summer... I can almost taste it again...");
+								dialogue.add(sSpirit2, global.character2Name + "\n\nThank you. That was... delicious.");
 								dialogue.add(sNarrative, "\n\nOne of keys appears in your hands.");
 							}
 					},]);
