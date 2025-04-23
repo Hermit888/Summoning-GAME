@@ -30,7 +30,7 @@ dialog.add_choice(sOfficer, global.character2Name +"\n\nA permit! You know, a Pr
 									{
 										text: "Greg Humanstein",
 										callback: function(dialogue){
-											dialogue.add(sOfficer, global.character2Name+"\n\nLooks that is not your name.");
+											dialogue.add(sOfficer, global.character2Name+"\n\nLooks like that is not your name.");
 											global.nextRoom = End2;
 										}
 									},
@@ -89,7 +89,7 @@ dialog.add_choice(sOfficer, global.character2Name +"\n\nA permit! You know, a Pr
 									{
 										text: "Kevin",
 										callback: function(dialogue){
-											dialogue.add(sOfficer, global.character2Name+"\n\nLooks that is not your name.");
+											dialogue.add(sOfficer, global.character2Name+"\n\nLooks like that is not your name.");
 											global.nextRoom = End2;
 										}
 									}
@@ -101,7 +101,7 @@ dialog.add_choice(sOfficer, global.character2Name +"\n\nA permit! You know, a Pr
 						{
 							text: "Run",
 							callback: function(dialogue){
-								dialogue.add(sNarrative, "\n\nYou tried to run away, but underworld officer spread his wings and caught up with you.");
+								dialogue.add(sNarrative, "\n\nYou tried to run away, but the underworld officer spread his wings and caught up with you.");
 								global.nextRoom = End2;
 							}
 						},

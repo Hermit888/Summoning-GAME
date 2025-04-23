@@ -17,7 +17,7 @@ dialog.add_choice(sSpirit2, global.character2Name + "\n\nTell us. Describe it. M
 							callback: function(dialogue){
 								dialogue.add(sSpirit2, global.character2Name + "\n\nAh... yes. Like honey on a warm day...");
 								dialogue.add(sSpirit2, global.character2Name + "\n\nThank you. That was... delicious.");
-								dialogue.add(sNarrative, "\n\nOne of keys appears in your hands.");
+								dialogue.add(sNarrative, "\n\nOne of the keys appears in your hands.");
 							}
 					},
 					{
@@ -25,7 +25,7 @@ dialog.add_choice(sSpirit2, global.character2Name + "\n\nTell us. Describe it. M
 							callback: function(dialogue){
 								dialogue.add(sSpirit2, global.character2Name + "\n\nFire on the tongue! A thrill!");
 								dialogue.add(sSpirit2, global.character2Name + "\n\nThank you. That was... delicious.");
-								dialogue.add(sNarrative, "\n\nOne of keys appears in your hands.");
+								dialogue.add(sNarrative, "\n\nOne of the keys appears in your hands.");
 							}	
 					},
 					{
@@ -33,6 +33,6 @@ dialog.add_choice(sSpirit2, global.character2Name + "\n\nTell us. Describe it. M
 							callback: function(dialogue){
 								dialogue.add(sSpirit2, global.character2Name + "\n\nA cool breeze in the heat of summer... I can almost taste it again...");
 								dialogue.add(sSpirit2, global.character2Name + "\n\nThank you. That was... delicious.");
-								dialogue.add(sNarrative, "\n\nOne of keys appears in your hands.");
+								dialogue.add(sNarrative, "\n\nOne of the keys appears in your hands.");
 							}
 					},]);

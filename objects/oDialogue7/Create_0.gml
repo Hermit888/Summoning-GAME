@@ -18,7 +18,7 @@ dialog.add_choice(sSpirit1, global.character2Name + "\n\nJust think! Give me som
 						text: "Elowen",
 							callback: function(dialogue){
 								dialogue.add(sSpirit1, global.character2Name + "\n\nYes... yes. That was it. That was me. Thank you, human. Take this... before I forget again.");
-								dialogue.add(sNarrative, "\n\nOne of keys appears in your hands.");
+								dialogue.add(sNarrative, "\n\nOne of the keys appears in your hands.");
 							}
 					},
 					{
