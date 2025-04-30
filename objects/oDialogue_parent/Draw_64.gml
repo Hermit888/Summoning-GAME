@@ -43,7 +43,7 @@ if (showing_dialog == true) {
     draw_set_color(c_white);
     draw_rectangle(border, base+border, display_get_gui_width() - border, base+height - border, false);
     
-    draw_set_color(c_black);
+    draw_set_color(c_dkgray);
     draw_rectangle((border * 2), base+(border * 2), display_get_gui_width() - (border * 2), base+height - (border * 2), false);
     
     if (sprite_exists(current_dialog.sprite)) {
