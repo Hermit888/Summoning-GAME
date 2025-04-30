@@ -1,8 +1,7 @@
 // Inherit the parent event
 event_inherited();
 
-
-background = c_black;
+background = shallway_bg;
 lineBreak = "\n\n";
 
 character1Name = "You"

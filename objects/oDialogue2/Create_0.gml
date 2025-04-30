@@ -2,9 +2,9 @@
 event_inherited();
 
 next_room = Dialogue1;
-background = c_black;
-lineBreak = "\n\n";
 
+lineBreak = "\n\n";
+background = sRoomateRoom;
 character1Name = "You"
 character2Name = "Roommate"
 

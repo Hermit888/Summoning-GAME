@@ -2,7 +2,7 @@
 event_inherited();
 
 
-background = c_black;
+background = shallway_bg;
 lineBreak = "\n\n";
 next_room = Hallway;
 

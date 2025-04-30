@@ -1,7 +1,7 @@
 // Inherit the parent event
 event_inherited();
 
-background = c_black;
+background = sPlayerRoom;
 lineBreak = "\n\n";
 next_room = End5;
 

@@ -5,21 +5,21 @@
   "bbox_bottom":143,
   "bbox_left":0,
   "bbox_right":143,
-  "bbox_top":0,
+  "bbox_top":20,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"46b75e8c-005f-4fe0-af01-94d2d7859667","name":"46b75e8c-005f-4fe0-af01-94d2d7859667","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"a2528dd7-b78c-4922-a23d-c2903aa2bf85","name":"a2528dd7-b78c-4922-a23d-c2903aa2bf85","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":144,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"8c052e5c-5bc9-4271-9a3c-5689c259a768","blendMode":0,"displayName":"default","isLocked":false,"name":"8c052e5c-5bc9-4271-9a3c-5689c259a768","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"955a66b5-2a47-484b-b361-165578953eba","blendMode":0,"displayName":"default","isLocked":false,"name":"955a66b5-2a47-484b-b361-165578953eba","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"sOfficer",
   "nineSlice":null,
@@ -71,8 +71,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"46b75e8c-005f-4fe0-af01-94d2d7859667","path":"sprites/sOfficer/sOfficer.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"f52de7c6-ff41-403a-acbd-f372b1226184","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a2528dd7-b78c-4922-a23d-c2903aa2bf85","path":"sprites/sOfficer/sOfficer.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e8f37a6d-9656-4910-9875-84beb15df099","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

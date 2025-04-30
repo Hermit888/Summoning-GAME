@@ -1,7 +1,7 @@
 // Inherit the parent event
 event_inherited();
 
-background = c_black;
+background = undefined;
 lineBreak = "\n\n";
 
 global.character1Name = "You"

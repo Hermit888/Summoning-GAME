@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sDemon2g",
-    "path":"sprites/sDemon2g/sDemon2g.yy",
+    "name":"sDemon3g",
+    "path":"sprites/sDemon3g/sDemon3g.yy",
   },
   "spriteMaskId":null,
   "visible":true,

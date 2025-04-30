@@ -6,8 +6,13 @@ draw_set_color(c_white);
 draw_set_alpha(1);
 
 // background
-draw_set_color(background);
-draw_rectangle(0, 0, display_get_gui_width(), display_get_gui_height(), false);
+if (sprite_exists(background)){
+	draw_sprite_stretched(background, 0, 0, 0, display_get_gui_width(), display_get_gui_height());
+} else {
+	draw_set_color(c_black);
+	draw_rectangle(0, 0, display_get_gui_width(), display_get_gui_height(), false);
+}
+
 
 if (showing_dialog == true) {
     // init dialogue box

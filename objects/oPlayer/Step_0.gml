@@ -22,40 +22,49 @@ if (global.count == 1 && global.replay){
 	instance_create_layer(3904, 672, layer, oPlayer);
 }
 
+// get player input
+var key_left = keyboard_check(ord("A"));
+var key_right = keyboard_check(ord("D"));
+var key_jump = keyboard_check_pressed(vk_space);
+
 if (global.move){
-	// get player input
-	key_left = keyboard_check(ord("A"));
-	key_right = keyboard_check(ord("D"));
-	key_jump = keyboard_check_pressed(vk_space);
 	// calculate movement
 	var move = key_right - key_left;
 	hsp = move*walksp;
 	vsp +=  grv;
+	var grouned = place_meeting(x, y+1, oWall) || place_meeting(x, y+1, oUnderWall) || place_meeting(x, y+1, oPlatform);
+	
+	if (place_meeting(x, y+1, oWall) || place_meeting(x, y+1, oUnderWall)){
+		grounded = true
+	} else {
+		grounded = false;
+	}
 	
 	if (move != 0){
-		if (key_left){
-			direction = 1;
-			sprite_index = sPlayer_lt;
-		} else {
-			direction = 0;
-			sprite_index = sPlayer_rt;
-		}
+		image_xscale = move;
+		image_speed = 1;
+		sprite_index = sPlayer_walk;
+	} else{
+		sprite_index = sPlayer_idle;
 	}
-
-} else {
-	// calculate movement
+	
+	if (key_jump && jump_curr > 0){
+		vsp = -6;
+		jump_curr --;
+	
+		sprite_index = sPlayer_jump;
+	}
+	
+	// not press space but the player doesn't on the ground
+	if ((!grounded && sprite_index != sPlayer_jump)){
+		if (vsp < 0){
+			sprite_index = sPlayer_jump;
+		} 
+	}
+}else {
 	var move = 0;
 	hsp = move*walksp;
 	vsp +=  0;
-}
-
-
-
-// jumping
-if (key_jump && jump_curr > 0 && global.move){
-	vsp = -6;
-	jump_curr --;
-	
 }
 
 // Horizontal collision

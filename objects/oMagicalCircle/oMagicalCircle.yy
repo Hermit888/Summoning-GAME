@@ -41,5 +41,5 @@
     "path":"sprites/sMagicalCircle/sMagicalCircle.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

@@ -2,7 +2,7 @@
 
 event_inherited();
 
-background = c_black;
+background = undefined;
 lineBreak = "\n\n";
 
 character1Name = "You";

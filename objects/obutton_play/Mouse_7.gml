@@ -18,3 +18,4 @@ global.count = 0;
 global.replay = false;
 global.move = true;
 global.quit = false;
+global.circle = false;
