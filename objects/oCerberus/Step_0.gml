@@ -20,7 +20,6 @@ if (global.is_active) {
     x += move_dir * move_speed;
 
     
-
     if (place_meeting(x, y, oPlayer) && !global.invincible) {
         var player = instance_place(x, y, oPlayer);
         

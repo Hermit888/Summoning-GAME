@@ -113,6 +113,7 @@
     {"id":{"name":"sCat","path":"sprites/sCat/sCat.yy",},},
     {"id":{"name":"sCatg","path":"sprites/sCatg/sCatg.yy",},},
     {"id":{"name":"sCerberus","path":"sprites/sCerberus/sCerberus.yy",},},
+    {"id":{"name":"sCerberusg_idle","path":"sprites/sCerberusg_idle/sCerberusg_idle.yy",},},
     {"id":{"name":"sCerberusg_lt","path":"sprites/sCerberusg_lt/sCerberusg_lt.yy",},},
     {"id":{"name":"sCerberusg_rt","path":"sprites/sCerberusg_rt/sCerberusg_rt.yy",},},
     {"id":{"name":"sDemon1","path":"sprites/sDemon1/sDemon1.yy",},},
