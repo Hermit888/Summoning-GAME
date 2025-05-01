@@ -16,6 +16,6 @@ dialog.add(sRoommate, character2Name + lineBreak + "Hmm...!!! I think it makes s
 
 dialog.add(sNarrative, lineBreak + "A pulsing blue light flickers from their room, casting an eerie glow.");
 
-dialog.add(sYou, character1Name + lineBreak + "Wait... isn't that our room? What the hell is going on?");
+dialog.add(sYou, character1Name + lineBreak + "Wait... isn't that your room? What the hell is going on?");
 dialog.add(sRoommate, character2Name + lineBreak + "No idea, but it looks like something fun is about to happen. Prof. K was right - just that glow alone makes the space feel...inviting, almost magnetic!");
 dialog.add(sYou, character1Name + lineBreak + "Yeah... It's kinda hypnotic. Let's check it out - maybe it's some kind of surprise event or something?");
