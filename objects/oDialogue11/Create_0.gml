@@ -1,7 +1,7 @@
 // Inherit the parent event
 event_inherited();
 
-background = undefined;
+background = sUnderworld_bg;
 lineBreak = "\n\n";
 
 global.nextRoom = End4;

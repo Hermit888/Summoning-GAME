@@ -3,7 +3,7 @@ event_inherited();
 
 next_room = Underworld;
 
-background = undefined;
+background = sUnderworld_bg;
 lineBreak = "\n\n";
 
 character1Name = "You"

@@ -1,0 +1,1 @@
+background = sMainMenu_img;
