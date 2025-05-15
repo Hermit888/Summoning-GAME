@@ -4,5 +4,5 @@ One day, you are summoned to the underworld by the curious demons. Trapped in th
 # Game Link
 https://gx.games/games/4s8s8g/summoning/
 
-# Contributors
+# Makers
 Luzviviana Gonzalez, Yuxuan Qian, Annie Do, and Sunggyu Park
